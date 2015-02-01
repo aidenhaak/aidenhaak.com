@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: $body-color;
+  background-color: $body-bg-color;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}

@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: $footer-color;
+  background-color: $footer-bg-color;
+  height: $footer-height;
+
+  a {
+    color: $footer-link-color;
+  }
+}
+
+.footer-push {
+  height: $footer-height;
+}
+
+.footer-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto (-$footer-height);
+}

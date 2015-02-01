@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: $header-color;
+  background-color: $header-bg-color;
+
+  a {
+    color: $header-link-color;
+  }
+}
+
+h1.site-title {
+  color: $header-link-color;
+  margin-top: 0;
+  font-family: $header-font;
+  font-size: 3rem;
+}
+
+
